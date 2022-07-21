@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.775);
+    color: azure;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#putdata {
+    margin-top: 6%;
+    background-color: rgba(0, 0, 0, 0.808);
+    min-width: 60%;
+    padding: 1%;
+    border-radius: 20px;
+    min-height: 20vh;
+    box-shadow: whitesmoke 0px 1px 3px;
+
+}
+#selectdata {
+    left: 25%;
+    min-width: 15em;
+    padding: 5px;
+    margin: 1%;
+}
+#num {
+    border-style: none;
+    border-radius: 10px;
+    width: 20%;
+    min-height: 3.5vh;
+}
+#res {
+    display: none;
+    padding: 30px;
+}
+#btn {
+    width: 20%;
+}
